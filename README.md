@@ -5,7 +5,7 @@ This is my excercise :
  
 -  2- I made 2 function on fundme.sol constracts :
  
-  -  1-Transfer function : onlyowner can transfer ether from contract to another address or itself;its must be lower than constract balance.
+  - 1-Transfer function : onlyowner can transfer ether from contract to another address or itself;its must be lower than constract balance.
    
   -  2-onlyowner can spend the owner to another address.
    
