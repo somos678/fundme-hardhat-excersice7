@@ -1,26 +1,26 @@
 # Hardhat Fund Me
 This is my excercise :
 
- 1- I did test coverage to 100%.
+ - 1- I did test coverage to 100%.
  
- 2- I made 2 function on fundme.sol constracts :
+-  2- I made 2 function on fundme.sol constracts :
  
-   1-Transfer function : onlyowner can transfer ether from contract to another address or itself;its must be lower than constract balance.
+  -  1-Transfer function : onlyowner can transfer ether from contract to another address or itself;its must be lower than constract balance.
    
-   2-onlyowner can spend the owner to another address.
+  -  2-onlyowner can spend the owner to another address.
    
-3- I changed call to transfer on constracts.
+- 3- I changed call to transfer on constracts.
 
-4- I use event.
+- 4- I use event.
 
-5- and deployed and test on localhost and sepolia network with this Address :
+- 5- and deployed and test on localhost and sepolia network with this Address :
 
   Successfully verified contract FundMe on Etherscan.
   https://sepolia.etherscan.io/address/0xd1e6478aa5c5753F5e140853CD3fD5BC80e371c7#code
    
-6- use new function on frontend and conected with metamask 
+- 6- use new function on frontend and conected with metamask 
 
-7- video of my excercise : 
+- 7- video of my excercise : 
 
    [ ⌨️ excersice video](https://drive.google.com/uc?id=1kDhFDXetfXpdWIlMLWGT7xxxOIQY71Kv&export)
 
