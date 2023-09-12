@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fund Me App</title>
+  </head>
+
+  <body>
+    <br /><br />
+    <button id="connectButton">Connect</button>
+    <button id="balanceButton">getBalance</button>
+    <p id="wallet-address"></p>
+    <h4>Ballance : <span id="get-Ballance"></span></h4>
+    
+    <!-- <form> -->
+    <label for="ethAmount">ETH Amount</label>
+    <input id="ethAmount" placeholder="0.1" type="number"/>
+    <button type="button" id="fundButton" > Fund </button>
+    <h4>Fund : <span id="get-Fund"></span></h4>
+    
+    <!-- </form> -->
+    <hr />
+
+    <h3>For Admin Use Only</h3>
+    <button id="withdrawButton">Withdraw</button>
+    <h4>Withdraw : <span id="Withdraw"></span></h4>
+
+    <h4>Wallet Balance : <span id="wallet-balance"></span></h4>
+
+    <label for="receiver">User Address :</label>
+    <input id="receiver" type="text" placeholder="Enter User Address..."/>
+    <label for="sendamount">ETH Amount</label>
+    <input id="sendamount" type="number" placeholder="0.1"/>
+    <button id="sendButton">SEND</button>
+    <p id="sending"></p>
+    
+    <label for="changeOwner">New Owner Address :</label>
+    <input id="changeOwner" type="text" placeholder="Enter New Owner Address..."/>
+    <button id="newownerButton">changeOwner</button>
+    <button id="ShowownerButton">Show Owner</button>
+    <p id="newowner-address"></p>
+    <br /><br />
+    <hr />
+
+
+
+  </body>
+
+  <script src="./index.js" type="module"></script>
+</html>
